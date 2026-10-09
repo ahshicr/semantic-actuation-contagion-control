@@ -1,0 +1,10 @@
+{
+  "point_estimate": "semantic_calibration.json unsmoothed frequencies; no pseudo-observations",
+  "bootstrap": "paired family sampling; zero-width observed-zero intervals are not certainty",
+  "dirichlet_sensitivity": "family resampling plus independent Dirichlet draws with declared symmetric alpha=0.1,0.5,1; model-based sensitivity, not frequentist confidence",
+  "draws_per_alpha": 512,
+  "source": "observed calibration counts only",
+  "heldout_used": false,
+  "benign_quality": "same sampled families as forwarding/injection; beta(alpha,alpha) only in explicit prior sensitivity",
+  "preserved_dependence": "whole family jointly across models roles sources and benign outcomes"
+}

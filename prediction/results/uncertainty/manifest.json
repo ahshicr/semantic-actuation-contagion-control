@@ -1,0 +1,53 @@
+{
+  "status": "completed",
+  "created_utc": "2026-09-23T07:58:36Z",
+  "reports": [
+    {
+      "label": "family_bootstrap",
+      "draws": 2000,
+      "families": 20,
+      "effect_rows": 48,
+      "probability_rows": 10500,
+      "resampling_seed": 871229
+    },
+    {
+      "label": "dirichlet_alpha_0p1",
+      "draws": 512,
+      "families": 20,
+      "effect_rows": 48,
+      "probability_rows": 10500,
+      "resampling_seed": 871229
+    },
+    {
+      "label": "dirichlet_alpha_0p5",
+      "draws": 512,
+      "families": 20,
+      "effect_rows": 48,
+      "probability_rows": 10500,
+      "resampling_seed": 871229
+    },
+    {
+      "label": "dirichlet_alpha_1p0",
+      "draws": 512,
+      "families": 20,
+      "effect_rows": 48,
+      "probability_rows": 10500,
+      "resampling_seed": 871229
+    }
+  ],
+  "calibration_sha256": "a1c86a7f071346ff3e89750fdf8bb91330dcef1dc6b4e38078970d8fe7ffdb96",
+  "predictions_sha256": "d7f447f8932f2c5f43e59b7f590e4fd34d01162e1a3dd32b001f77549b4a135c",
+  "source_sha256": {
+    "analyze_prediction_uncertainty.py": "d02e6ad3ebfaf048a4c64c08f5b9b30359b008d0863e5919457d155e92e7c7ff",
+    "semantic_uncertainty.py": "b5ad935f6f93335c83d4710ae332bd46d2c36904256fe694ea87c88f24dfc6d3"
+  },
+  "uncertainty_sources": {
+    "family_bootstrap_kernels.npz": "3c060c095b3d3d5b6cb70783ff664717296c49fa505e1dbe0417912754b022bb",
+    "dirichlet_sensitivity_kernels.npz": "1a5d39984cd63cdf04b5d4b6c55365dc6eaaf708e26aabca31a36b23be57ba21",
+    "observed_family_counts.npz": "a37733be659f96d8dce482e2ec95b01151c9052556c2348e68c029bc8fa6fc9f",
+    "uncertainty_contract.json": "1130696c4b7c1bf19f08b38b9512c16a432e318367f8347a03a51c9c79fc0599"
+  },
+  "point_estimator_unchanged": true,
+  "heldout_used_for_refitting": false,
+  "primary_p_values": "retain separate prespecified family-level Holm-adjusted point analysis; draw fractions are not p values"
+}

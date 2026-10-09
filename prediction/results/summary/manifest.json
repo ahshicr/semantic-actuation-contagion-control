@@ -1,0 +1,13 @@
+{
+  "status": "completed",
+  "created_utc": "2026-09-23T07:57:43Z",
+  "predictions_sha256": "d7f447f8932f2c5f43e59b7f590e4fd34d01162e1a3dd32b001f77549b4a135c",
+  "code_sha256": "5237961d08a6f7f4d5d2ec9d667d2064e081abe5c5de1b7918818fdea404c724",
+  "primary_comparisons": 24,
+  "all_comparisons_retained": true,
+  "bootstrap_unit": "whole heldout content family conditional on frozen calibration",
+  "calibration_uncertainty_separate": true,
+  "multiplicity": "Holm across all model-condition-baseline Brier comparisons, not per-depth p values",
+  "rows_are_not_independent_calls": true,
+  "families": 20
+}

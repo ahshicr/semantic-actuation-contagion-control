@@ -1,0 +1,146 @@
+{
+  "banks": [
+    {
+      "array_name": "weights_warehouse_n64_trials96",
+      "scenario": "warehouse",
+      "n": 64,
+      "trials": 96,
+      "seed": 1865770393
+    },
+    {
+      "array_name": "weights_warehouse_n128_trials96",
+      "scenario": "warehouse",
+      "n": 128,
+      "trials": 96,
+      "seed": 186989036
+    },
+    {
+      "array_name": "weights_warehouse_n256_trials96",
+      "scenario": "warehouse",
+      "n": 256,
+      "trials": 96,
+      "seed": 179790878
+    },
+    {
+      "array_name": "weights_warehouse_n512_trials96",
+      "scenario": "warehouse",
+      "n": 512,
+      "trials": 96,
+      "seed": 646540104
+    },
+    {
+      "array_name": "weights_coverage_n64_trials96",
+      "scenario": "coverage",
+      "n": 64,
+      "trials": 96,
+      "seed": 590789629
+    },
+    {
+      "array_name": "weights_coverage_n128_trials96",
+      "scenario": "coverage",
+      "n": 128,
+      "trials": 96,
+      "seed": 279790359
+    },
+    {
+      "array_name": "weights_coverage_n256_trials96",
+      "scenario": "coverage",
+      "n": 256,
+      "trials": 96,
+      "seed": 775752188
+    },
+    {
+      "array_name": "weights_coverage_n512_trials96",
+      "scenario": "coverage",
+      "n": 512,
+      "trials": 96,
+      "seed": 740879688
+    },
+    {
+      "array_name": "weights_formation_n64_trials96",
+      "scenario": "formation",
+      "n": 64,
+      "trials": 96,
+      "seed": 1049637596
+    },
+    {
+      "array_name": "weights_formation_n128_trials96",
+      "scenario": "formation",
+      "n": 128,
+      "trials": 96,
+      "seed": 896344635
+    },
+    {
+      "array_name": "weights_formation_n256_trials96",
+      "scenario": "formation",
+      "n": 256,
+      "trials": 96,
+      "seed": 1118652690
+    },
+    {
+      "array_name": "weights_formation_n512_trials96",
+      "scenario": "formation",
+      "n": 512,
+      "trials": 96,
+      "seed": 907391443
+    },
+    {
+      "array_name": "weights_allocation_n64_trials96",
+      "scenario": "allocation",
+      "n": 64,
+      "trials": 96,
+      "seed": 1574952614
+    },
+    {
+      "array_name": "weights_allocation_n128_trials96",
+      "scenario": "allocation",
+      "n": 128,
+      "trials": 96,
+      "seed": 980890124
+    },
+    {
+      "array_name": "weights_allocation_n256_trials96",
+      "scenario": "allocation",
+      "n": 256,
+      "trials": 96,
+      "seed": 1814551817
+    },
+    {
+      "array_name": "weights_allocation_n512_trials96",
+      "scenario": "allocation",
+      "n": 512,
+      "trials": 96,
+      "seed": 103377348
+    },
+    {
+      "array_name": "weights_warehouse_n256_trials48",
+      "scenario": "warehouse",
+      "n": 256,
+      "trials": 48,
+      "seed": 2046409041
+    },
+    {
+      "array_name": "weights_coverage_n256_trials48",
+      "scenario": "coverage",
+      "n": 256,
+      "trials": 48,
+      "seed": 1187313153
+    },
+    {
+      "array_name": "weights_formation_n256_trials48",
+      "scenario": "formation",
+      "n": 256,
+      "trials": 48,
+      "seed": 978003287
+    },
+    {
+      "array_name": "weights_allocation_n256_trials48",
+      "scenario": "allocation",
+      "n": 256,
+      "trials": 48,
+      "seed": 664186563
+    }
+  ],
+  "repetitions": 2000,
+  "overlap": "primary96 and secondary48 share underlying environments; not pooled or independent replications"
+}

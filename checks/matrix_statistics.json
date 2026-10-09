@@ -1,0 +1,21 @@
+{
+  "settings": 216,
+  "policy_trial_rows_not_independent_environments": 96768,
+  "unique_initial_environment_seeds": 1536,
+  "policy_summary_rows": 8960,
+  "paired_comparison_rows": 14680,
+  "holm_family_sizes": {
+    "primary": 2000,
+    "secondary": 12680
+  },
+  "all_declared_comparisons_retained": true,
+  "bootstrap_unit": "whole paired environment trial within setting, shared banks per scene/N/trial-count",
+  "inference_scope": "fixed declared scenes, point-calibrated simulation, pointwise percentile intervals; signed-rank symmetry test not specifically a mean test",
+  "not_claimed": "independent policy/time-step samples, simultaneous confidence bands, measured robot missions, future stability from snapshot ratios, or isolated runtime measurements",
+  "status": "passed",
+  "every_declared_statistic_checked": true,
+  "seconds": 24.215414299978875,
+  "absolute_numeric_tolerance": 1e-12,
+  "network_or_hardware_access": false,
+  "new_independent_environments": 0
+}

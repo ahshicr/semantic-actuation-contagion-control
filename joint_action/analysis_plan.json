@@ -1,0 +1,60 @@
+{
+  "declared_utc": "2026-10-08T09:11:31.695167+00:00",
+  "study": "supplementary_matched_gradient_action_set_ablation",
+  "source": "previously frozen primary N=64 environments, all four scenarios",
+  "scenarios": [
+    "warehouse",
+    "coverage",
+    "formation",
+    "allocation"
+  ],
+  "trials_per_scenario": 96,
+  "steps": 120,
+  "policies": [
+    "gradient_joint",
+    "gradient_network_only",
+    "gradient_guard_only"
+  ],
+  "budget_per_node": 0.06,
+  "guard_cost_ratio": 0.25,
+  "forecast_horizon": 5,
+  "path_multiplier": false,
+  "only_intervention": "mask excluded action scores before unchanged stable discrete allocation",
+  "primary_outcomes": [
+    "mean_actuator_risk",
+    "successful_exposure_burden",
+    "task_utility_mean",
+    "mean_cost_per_node",
+    "benign_success_fraction"
+  ],
+  "comparisons": "joint minus each restricted arm for each outcome and scenario",
+  "complete_holm_family": 40,
+  "test": "two-sided Wilcoxon-Pratt signed rank",
+  "interval": "pointwise percentile 95% paired whole-environment bootstrap, 2000 draws",
+  "bootstrap_random_state": 2026100801,
+  "backend": "CPU only; all three arms generated on the same backend",
+  "environment_units": 384,
+  "new_independent_environments": 0,
+  "paired_trajectories": 1152,
+  "batch_size": 8,
+  "GPU_jobs": 0,
+  "model_calls": 0,
+  "hardware_operations": 0,
+  "prior_outcomes_known": true,
+  "prior_statistics_remain_unchanged": true,
+  "inputs": {
+    "inputs/allocation.json": "102520891f480fe514187f3ce3850ec71ea9636817b42420e391e35730201028",
+    "inputs/coverage.json": "39b1a4a3f3d6dc8054b3a69a01233ad833d5f692e912367f815cd24d52dbf254",
+    "inputs/formation.json": "5f909fbbf1e2c247a97dee1d19828d10f7cca80aa45223c76946eb720d032b07",
+    "inputs/semantic_calibration.json": "a1c86a7f071346ff3e89750fdf8bb91330dcef1dc6b4e38078970d8fe7ffdb96",
+    "inputs/warehouse.json": "95e9212a70f946d3455f6fa642fcd0e76cabe7e1c27210a7b7b988be28868c9c",
+    "source_snapshot/certificates.py": "9bca8ba01375a0767d845fd21901e4d682bd10b80df3cedbb8af67e1367a7220",
+    "source_snapshot/evidence_io.py": "1f18a6a64764ceb1bdf47fc0ea6c6ec2539fdb43e2e03d58950239056f3c2f73",
+    "source_snapshot/experiment_protocol.py": "6b0259ba06835741886f01ee4ae6b085d9bddadca128dcdfd6cf06f880736cff",
+    "source_snapshot/optimization.py": "046339185133ed230fe1c07c7648624beeb17cf73f66a2b5a48f58e845c28355",
+    "source_snapshot/run_simulation.py": "bf7f916fece9190f188075087afc985fff0f3d5d7b372f350f1d42e3ead18787",
+    "source_snapshot/sim_core.py": "09ba737350329f02b6dba55b1d191689d4bb3b945104960e7e33db3715dc9c27",
+    "source_snapshot/simulation_evidence.py": "7fb975eff98b53fe22a6fc40fcf6afadd652ad8520e18582a64176cbbec11521"
+  },
+  "runner_sha256": "e6e291641c5073b6fec8309c4bdbf2d0bb7535963aaa40c4abe56c3fb7cf996c"
+}

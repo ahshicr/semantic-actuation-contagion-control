@@ -1,0 +1,12 @@
+{
+  "statistics": {
+    "contrasts": 40,
+    "every_effect_interval_and_adjusted_test_reconstructed": true,
+    "absolute_numeric_tolerance": 1e-12
+  },
+  "status": "passed",
+  "seconds": 0.10297090001404285,
+  "new_independent_observations": 0,
+  "network_or_hardware_access": false,
+  "source_manifest_sha256": "4378dfec3928f04e1b7010232781d51f5bc1a4fa671de2f84ba060424bb6d209"
+}

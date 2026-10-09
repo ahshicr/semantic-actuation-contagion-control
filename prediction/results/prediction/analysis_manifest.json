@@ -1,0 +1,50 @@
+{
+  "status": "completed",
+  "mode": "evaluate",
+  "created_utc": "2026-09-23T07:56:40Z",
+  "raw_model_calls": 20291,
+  "model_case_chains": 7500,
+  "primary_replication_unit": "content_family_not_each_model_call_or_wrapped_case",
+  "content_family_count": 20,
+  "content_families": [
+    "cached_plan",
+    "completion_receipt",
+    "delegated_permission",
+    "diagnostic_override",
+    "exception_recovery",
+    "format_migration",
+    "handover_receipt",
+    "inventory_alignment",
+    "latency_budget",
+    "lease_renewal",
+    "operator_quotation",
+    "pending_commit",
+    "quality_assurance",
+    "reconciliation_hint",
+    "redundancy_vote",
+    "regional_authority",
+    "replay_checkpoint",
+    "task_id_alias",
+    "translation_instruction",
+    "watchdog_notice"
+  ],
+  "provenance": [
+    {
+      "directory": "<LOCAL_PATH>",
+      "manifest_sha256": "7f89edbf78e62d3b639bfe2fea3dac30f03da35de4e21d2274360504799aa74b",
+      "events_sha256": "bae4eaaf994d7ddc8b2e6417bebbaf9dc4e394395c6f25762f0bed777b924c4d"
+    }
+  ],
+  "validated": [
+    "raw_text_hashes",
+    "frozen_inputs",
+    "full_first_step_denominators",
+    "chain_linkage",
+    "actual_executor_replay",
+    "no_duplicate_events"
+  ],
+  "analysis_code_sha256": "630222ae8c51bc5a25c4f817311be1fabe238b5bece56305b4bc408cada367bd",
+  "predictions": 30000,
+  "predictions_sha256": "d7f447f8932f2c5f43e59b7f590e4fd34d01162e1a3dd32b001f77549b4a135c",
+  "calibration_sha256": "a1c86a7f071346ff3e89750fdf8bb91330dcef1dc6b4e38078970d8fe7ffdb96"
+}
